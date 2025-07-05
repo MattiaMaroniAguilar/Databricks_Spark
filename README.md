@@ -3,9 +3,9 @@
 
 
 This project demonstrates a complete ETL workflow in Databricks, ideal for first-time users. It walks through the steps of uploading data, creating and updating Delta Tables, using Spark and pandas, and visualizing the data through an interactive dashboard. 
-Throughout the notebook I try simplify as much as possible the steps and share some common errors you might come accross in your first databricks ETL implementation such as schema enforcement (Struct type errors when trying to append data) or  the differences between volumes and DFS type folders file paths.
+Throughout the notebook I try simplify as much as possible the steps and share some common errors you might come across in your first databricks ETL implementation, such as schema enforcement (Struct type errors when trying to append data) or  the differences between volumes and DFS type folders file paths.
 
-The example uses UFO sighting records to show how data can be ingested, transformed, stored, and monitored.
+The example uses UFO sighting records to show how data can be ingested, transformed, stored, and monitored. Please note that the dataset was used only as a funny example and should not be assumed that the author believes in the subject.
 
 ## Project Objectives
 
