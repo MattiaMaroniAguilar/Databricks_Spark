@@ -1,8 +1,9 @@
-# How to make your first Databricks ETL Pipeline and Dashboard Project
+# Databricks ETL Pipeline and Dashboard Project
 <img width="1650" alt="image" src="https://github.com/user-attachments/assets/ae7e680d-4ae4-48fc-b2b6-9e997ccc3098" />
 
 
-This project demonstrates a complete ETL workflow in Databricks, ideal for first-time users. It walks through the steps of uploading data, creating and updating Delta Tables, using Spark and pandas, and visualizing the data through an interactive dashboard.
+This project demonstrates a complete ETL workflow in Databricks, ideal for first-time users. It walks through the steps of uploading data, creating and updating Delta Tables, using Spark and pandas, and visualizing the data through an interactive dashboard. 
+Throughout the notebook I try simplify as much as possible the steps and share some common errors you might come accross in your first databricks ETL implementation such as schema enforcement (Struct type errors when trying to append data) or  the differences between volumes and DFS type folders file paths.
 
 The example uses UFO sighting records to show how data can be ingested, transformed, stored, and monitored.
 
