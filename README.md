@@ -1,4 +1,4 @@
-# Databricks ETL Pipeline and Dashboard Project
+# How to make your first Databricks ETL Pipeline and Dashboard Project
 <img width="1650" alt="image" src="https://github.com/user-attachments/assets/ae7e680d-4ae4-48fc-b2b6-9e997ccc3098" />
 
 
