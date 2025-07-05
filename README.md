@@ -1,4 +1,5 @@
 # Databricks ETL Pipeline and Dashboard Project
+![image](https://github.com/user-attachments/assets/59ee4e81-ed2d-42c6-90ba-bb12f9da4192)
 
 This project demonstrates a complete ETL workflow in Databricks, ideal for first-time users. It walks through the steps of uploading data, creating and updating Delta Tables, using Spark and pandas, and visualizing the data through an interactive dashboard.
 
@@ -16,6 +17,10 @@ The example uses UFO sighting records to show how data can be ingested, transfor
 ### Step 1: Upload Files to a Volume
 - Create or access a Unity Catalog volume
 - Upload data files (CSV, Excel) to the volume
+
+<img width="756" alt="image" src="https://github.com/user-attachments/assets/07f916da-5e2a-460a-b1a5-aaca8cdb7951" />
+
+<img width="954" alt="image" src="https://github.com/user-attachments/assets/fa157bf5-9fa4-487d-b11f-7dfcfa4b7e8b" />
 
 ### Step 2: Create Workspace and Load Data
 - Create a new notebook in Databricks
