@@ -1,5 +1,6 @@
 # Databricks ETL Pipeline and Dashboard Project
-![image](https://github.com/user-attachments/assets/59ee4e81-ed2d-42c6-90ba-bb12f9da4192)
+<img width="1650" alt="image" src="https://github.com/user-attachments/assets/ae7e680d-4ae4-48fc-b2b6-9e997ccc3098" />
+
 
 This project demonstrates a complete ETL workflow in Databricks, ideal for first-time users. It walks through the steps of uploading data, creating and updating Delta Tables, using Spark and pandas, and visualizing the data through an interactive dashboard.
 
@@ -18,9 +19,9 @@ The example uses UFO sighting records to show how data can be ingested, transfor
 - Create or access a Unity Catalog volume
 - Upload data files (CSV, Excel) to the volume
 
-<img width="756" alt="image" src="https://github.com/user-attachments/assets/07f916da-5e2a-460a-b1a5-aaca8cdb7951" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/07f916da-5e2a-460a-b1a5-aaca8cdb7951" />
 
-<img width="954" alt="image" src="https://github.com/user-attachments/assets/fa157bf5-9fa4-487d-b11f-7dfcfa4b7e8b" />
+<img width="1500" alt="image" src="https://github.com/user-attachments/assets/fa157bf5-9fa4-487d-b11f-7dfcfa4b7e8b" />
 
 ### Step 2: Create Workspace and Load Data
 - Create a new notebook in Databricks
@@ -61,13 +62,16 @@ sdf_new.to_table("catalog.schema.table_name", mode="append")
 
 ## Dashboard Overview
 
+<img width="1471" alt="image" src="https://github.com/user-attachments/assets/8cd321e9-9ff7-4c1f-aa8d-335ae4961b7b" />
+
+
 The final dashboard includes:
 - UFO sightings by country
 - Average encounter length by country and city
 - Number of sightings over time
 
 View the dashboard here:  
-[Databricks Dashboard Example](https://dbc-f4254ae7-a57c.cloud.databricks.com/?o=2808389061517388)
+[Databricks Dashboard Example]([https://dbc-f4254ae7-a57c.cloud.databricks.com/?o=2808389061517388](https://dbc-f4254ae7-a57c.cloud.databricks.com/dashboardsv3/01f059da5b111add9c7b7b9a557e3609/published?o=2808389061517388))
 
 ## Tools and Technologies
 
