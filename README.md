@@ -34,14 +34,14 @@ import pandas as pd
 import pyspark.pandas as ps
 
 df = pd.read_csv('/Volumes/schema_name/volume_name/ufo_data.csv')
-sdf = ps.from_pandas(df)
+sdf = ps.from_pandas(df) # We can also use spark.createDataFrame(df) if we don't want to use pyspark
 ```
 
 ### Step 3: Create a Delta Table
 - Save the Spark DataFrame as a Delta Table in the catalog
 
 ```python
-sdf.to_table("catalog.schema.table_name", mode="overwrite")
+sdf.to_table("catalog.schema.table_name", mode="overwrite") # check for variant method in notebook
 ```
 
 ### Step 4: Append New Data
@@ -50,7 +50,7 @@ sdf.to_table("catalog.schema.table_name", mode="overwrite")
 - Append the data to the existing Delta Table
 
 ```python
-sdf_new.to_table("catalog.schema.table_name", mode="append")
+sdf_new.to_table("catalog.schema.table_name", mode="append") # check variant method in notebook
 ```
 
 ### Step 5: Build a Dashboard
